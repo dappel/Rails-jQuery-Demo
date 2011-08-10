@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-#gem 'rails', '3.1.0.rc4'
-gem 'rails', :git => 'git://github.com/rails/rails', :branch => '3-1-stable'
+gem 'rails', '3.1.0.rc5'
+#gem 'rails', :git => 'git://github.com/rails/rails', :branch => '3-1-stable'
 
 gem 'sass'
 gem 'coffee-script'
@@ -16,6 +16,8 @@ gem 'paperclip'
 #gem 'jquery-rails'
 gem 'jquery-rails', '1.0.12'
 
+
+gem 'therubyracer'
 # Use unicorn as the web server
 # gem 'unicorn'
 
